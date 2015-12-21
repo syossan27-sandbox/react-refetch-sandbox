@@ -1,0 +1,35 @@
+{
+  "name": "react-refetch-sandbox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "browserify --debug index.jsx --outfile dist/index.js -t [ babelify --presets [ es2015 react ] ]",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/syossan27-sandbox/react-refetch-sandbox.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/syossan27-sandbox/react-refetch-sandbox/issues"
+  },
+  "homepage": "https://github.com/syossan27-sandbox/react-refetch-sandbox#readme",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "babelify": "^7.2.0",
+    "browserify": "^12.0.1"
+  },
+  "dependencies": {
+    "history": "^1.13.1",
+    "react": "^0.14.3",
+    "react-dom": "^0.14.3",
+    "react-refetch": "^0.6.0",
+    "react-router": "^1.0.2",
+    "whatwg-fetch": "^0.10.1"
+  }
+}
